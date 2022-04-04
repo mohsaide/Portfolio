@@ -1,0 +1,273 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+ 
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-size: cover;
+}
+
+
+
+nav
+{
+   
+    height: 15vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1000;
+    position: fixed ; 
+
+
+}
+
+nav img
+{
+    position: absolute;
+    height: 15vh ;
+    width: 100%;
+   
+
+}
+
+
+header
+{   
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assests/img/form.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+
+.collect-image
+{
+   height: 80vh;
+   width: 60%; 
+  position: relative;
+  margin-left: -8%;
+  display: inline;
+  float: left;
+   box-sizing: border-box;
+   margin-top: 7vh;
+   animation: Lmove 1 2.5s ; 
+}
+
+
+@keyframes Lmove
+{
+    from {
+        margin-left: -54%;
+    }
+    to
+    {
+        margin-left: -8%;
+    }
+}
+
+
+
+
+
+.circle
+{
+border-radius: 100%;
+position: absolute;
+
+}
+
+.basic-img
+{
+width: 50%;
+height: 60vh;
+background-color:rgb(97, 80, 80) ;
+right: 15%;
+top:22vh ;
+z-index: 1;
+background-image: url(/assests/img/mas.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+ border: 1vh solid #405d9b;
+   
+
+}
+
+.pic1-img
+{
+    bottom: -8vh;
+    left: 25%;
+    width: 20%;
+    height: 25vh;
+   background-image: url(/assests/img/prog.jpg);
+   background-size: contain;
+   border: 1.5vh solid #405d9b;
+    z-index: 2;
+}
+.pic2-img
+{
+   top :16vh ;
+    left: 15%;
+    width: 20%;
+    height: 24vh;
+  background-image: url(/assests/img/photo.jpg);
+  background-size: cover;
+  border : .2vh solid black ; 
+  
+    
+}
+.cir-img
+{
+    top : 15vh ; 
+    right: 18%;
+    width: 10%;
+    height: 12vh;
+    background-color: transparent;
+    border: 2vh solid #6BC6EF;
+    box-sizing: border-box;
+}
+
+.welcome-text
+{
+
+   
+    box-sizing: border-box;
+    overflow: hidden;
+   height: 80vh;
+   padding-top: 30vh;
+}
+
+.welcome-text p 
+{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 2vh;
+margin-bottom: 5vh;
+font-weight: normal ; 
+color: #f1f1f1;
+}
+
+.welcome-text span 
+{
+ color: #6BC6EF;
+ text-transform: uppercase;
+ font-size: 6.5vh ;
+}
+
+.welcome-text h1
+{
+ color: white;
+margin-top: 5vh;
+font-size: 8vh ;
+font-family: 'Montserrat Alternates', sans-serif;
+font-weight: bolder;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+/* ---------------------------------------------------- */
+
+ul 
+{
+    width: 100%;
+    height:fit-content ;
+    margin: auto;
+    overflow: hidden; 
+    box-sizing: border-box;
+     list-style: none;
+    
+    
+  
+}
+
+
+li
+{
+    background-color:rgba(132, 156, 160, 0.11) ;
+    border: 1px #6BC6EF solid;
+    width: 15%;
+    height: 10vh;
+    box-sizing: border-box;
+    border-radius: 30pt 5pt ; 
+    display: inline;
+    float: right;
+    margin-right: 1.5%;
+}
+
+
+.fa-solid
+{
+    display: inline-block;
+  width: 30%; 
+  height: max-content;
+  font-size:45px; 
+  height: 100%;
+  color: #6BC6EF;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 6%;
+  padding-left: 5%;
+ 
+}
+
+li h2
+{
+    display: inline-block;
+    text-transform: uppercase;
+    color: whitesmoke  ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size:large;
+    height: 100%;
+    overflow: hidden;
+padding-bottom: 3%;
+    box-sizing: border-box;
+    width:65%;
+    padding-top: 6%; 
+    text-align: left;
+   
+
+}
+
+ul a 
+{
+    text-decoration: none;
+    height: fit-content;
+}
+
+ul li:hover
+{
+    background: linear-gradient(to left  , rgba(255, 255, 255, 0.589),  #6bc5ef88 );
+   animation: ch_col 1 4s  ;
+}
+
+ul li:hover .fa-solid
+{
+    color: #1E3362;
+}
+
+@keyframes ch_col 
+{
+    from {
+        background-color:rgba(132, 156, 160, 0.295) ;
+    }
+
+    to{
+        background: linear-gradient(to left  , rgba(255, 255, 255, 0.589),  #6bc5ef88 );
+    }
+}
+
+ul li:hover h2
+{
+    color:#1E3362;
+}
+
+

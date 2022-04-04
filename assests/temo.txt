@@ -1,0 +1,57 @@
+
+________________________________________________________________----
+EDUCATION & job  : 
+-nuu cs , 2019 , more info  ,Graduation date ,Your degree 
+-harri , thecnical ( reporting analysit ) , more info  , Position name ,Company ,
+- fullstack course 
+-my thecnologies , Indication of your proficiency level (Basic, Advanced, Expert)
+<label for="">Summary</label>
+
+    
+    <div class="desc">
+    <ul>
+        <li>Senior Web Developer specializing in front end development</li>
+        <li>Experienced with all stages of the development cycle for 
+            dynamic web projects
+           </li>
+           <li>Well-versed in numerous programming
+            languages including HTML5, PHP OOP, 
+           JavaScript, CSS, MySQL 
+           </li>
+           <li>Strong background in project
+            management and customer relations.</li>
+    </ul>
+
+
+
+skills & aceivments : 
+-github
+-cmd 
+-hult 
+-ryadyeen 
+-phtotgraphy 
+-coderizer
+-Soft skills and job-specific hard skills ,
+-(Optionally) Examples of how you used your abilities. 
+-Worked with becomes Collaborated on a team that...
+•	Project management
+•	Strong decision maker
+•	Complex problem solver	•	Creative design
+•	Innovative
+•	Service-focused
+
+
+
+Personal :
+
+
+
+
+
+
+
+
+
+
+
+
